@@ -1,0 +1,499 @@
+ * {
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d2b5e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+.namehead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 38px;
+    background-color: #ffe817 ;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.brand {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-family: Archivo Black;
+    font-size: 2.3em;
+    padding: 40px;
+    text-transform: capitalize;
+}
+.name {
+    color: black;
+    font-weight: 800;
+}
+.lastname {
+    color: #0996CE;
+    font-weight: 800;
+    margin: 10px;
+}
+.fitur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fitur>li {
+    list-style: none;
+    font-family: montserat;
+    font-style: normal;
+    padding: 30px;
+}
+.fitur>li>a {
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.fitur>li > a:hover {
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+}
+
+.hero {
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    color: white;
+    background-image: url(background.png);
+    z-index: -1;
+}
+.main-content {
+    padding: 50px 0 10px 40px;
+}
+.main-content h3 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family:'Times New Roman';
+    width: 40%;
+}
+.main-content h1  {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    width: 40;
+}
+.main-content h1 span {
+    color: #ffe817;
+    font-size: 45px;
+
+}
+.main-content h4 {
+    font-size: 1.6rem;
+    margin: 20px 0px 20px;
+}
+.main-content h4 span {
+    color: #ffe817;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+.main-content p {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+.foto {
+    width: 90%;
+    height: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content: flex-start;
+}
+.foto img {
+    width: 500px;
+    height: 450px;
+}
+.name >h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    padding-right: 150px;
+    justify-content: center;
+    color: white;
+}
+.medsos {
+    display: inline;
+    padding: 60px 30px 60px 30px;
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.medsos1 {
+    width: 50px;
+    height: 50px;
+}
+.medsos1:hover {
+    width: 52px;
+    height: 50px;
+    background-color: #ffffff;
+    
+    transition: all .10s ease-in-out;
+}
+
+.main-btn {
+    width: auto;
+    display: block;
+    margin: 2px 20px 0px 50px;
+    padding: 30px 20px 220px 30px;
+    border: 5px ;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-size: 2.0em;
+}
+.main-btn a.btn {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #0996CE;
+    background-color: #ffffff;
+    box-shadow: #d2b5e7  ;
+    padding:15px 60px;
+    border-radius: 30px;
+}
+.main-btn a.btn:hover {
+    box-shadow: #ffe817;
+    background-color: #0996CE;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    transition: all .10s ease-in-out;
+}
+.main-btn a.btn2{
+    text-decoration: none;
+    color: #0996CE;
+    background-color: transparent;
+    padding:15px 60px;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+}
+.main-btn a.btn2:hover {
+    
+    box-shadow: #ffe817;
+    background-color: #0996CE;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: #ffe817;
+    transition:all .10s ease-in-out;
+}
+.heroes2{
+background-color: rgb(41, 39, 39) ;
+}
+.main-content2,.main-content3{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:80px;
+}
+.main-content2 h2,.main-content3 h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 3.0em;
+    color: #ffe817;
+}
+.isiproject {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.persegi-panjang {
+    height: 65vh;
+    border-radius: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-shadow: #ffe817;
+    box-shadow: 14px 14px 28px #ffe817;
+    background-color: rgb(230, 230, 230);
+}
+.per1 img{
+    width: 170px;
+    height: 250px;
+    padding: 0px 35px;
+}
+.per1 p {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #0996CE;
+    text-align: center;
+}
+.per1:hover {
+    background-color: rgb(41, 39, 39);
+    color: #007a8d;
+    border-style: solid;
+    border-color: white;
+    transition: all .10s ease-in-out;
+}
+.skill {
+    background-color: #D2BBF2;
+}
+.main-content3 h2 {
+    color:  #ffe817;
+    padding-top: 40px;
+}
+.isiskill  {
+    font-weight: 200;
+    font-size: 0.9em;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.isiskill h2 {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.fulltable {
+    padding: 0px 40px 0px 40px;
+    height: auto;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.tabel1,.tabel2,.tabel3 {
+    font-size: 40px;
+    text-decoration: solid;
+}
+.tbody th  {
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+}
+.tabel2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabel3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme {
+    background: #007a8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    height: 100vh;
+    margin: -20px 0 0px;
+    padding: 10px;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: static;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    min-width: 370px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    height: 480px;
+    background-color: #00b4cf;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex: 1; 
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.left-container {
+    width: 80%;
+    text-align: left;
+    line-height: 25px
+}
+
+.left p {
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right-container {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+
+input,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #00b4cf;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #00b4cf;
+    background-color: #00b4cf;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+textarea {
+    height: 90px;
+}
+
+/* media query */
+    /*handphone */
+    @media screen and (max-width: 476px) {
+    .body{
+        width: 100%;
+        height: 100%;
+    }
+    .heading {
+        width: 100%;
+        font-size: 80%;
+        position: fixed;
+    }
+    .fitur {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+    .hero {
+        min-width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
+    .foto {
+        display: none;
+    }
+    .main-content h3 {
+        width: max-content;
+        font-size: 30px ;
+    }
+    .main-content h1{
+        font-size: 35px;
+    }
+    .main-content h1 span {
+        font-size: 40px;
+    }
+    .main-content p {
+        width: 80%;
+    }
+    .medsos1{
+        height: 35px;
+        width: 35px;
+    }
+    .main-btn{
+        width: auto;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .persegi-panjang{
+        width: 80%;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow-x: scroll;
+    }
+    .per1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .fulltable{
+        width: 80%;
+        padding: 0px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .tabel1,.tabel2,.tabel3 {
+        padding: 20px;
+        width: max-content;
+        height: auto;
+    }
+    .card-container {
+        height: 90vh;
+    }
+    .left {
+        height: 90vh;
+    }
+    }
